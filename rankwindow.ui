@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RankWindow</class>
+ <widget class="QMainWindow" name="RankWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableView" name="ShowInfotableView">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>571</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_my_low"/>
+   <addaction name="separator"/>
+   <addaction name="action_my_middle"/>
+   <addaction name="action_my_high"/>
+   <addaction name="separator"/>
+   <addaction name="action_global_low"/>
+   <addaction name="action_global_middle"/>
+   <addaction name="action_global_high"/>
+  </widget>
+  <action name="action_my_low">
+   <property name="text">
+    <string>我的记录_初级</string>
+   </property>
+  </action>
+  <action name="action_my_middle">
+   <property name="text">
+    <string>我的记录_中级</string>
+   </property>
+  </action>
+  <action name="action_global_low">
+   <property name="text">
+    <string>总记录_初级</string>
+   </property>
+  </action>
+  <action name="action_global_middle">
+   <property name="text">
+    <string>总记录_中级</string>
+   </property>
+  </action>
+  <action name="action_global_high">
+   <property name="text">
+    <string>总记录_高级</string>
+   </property>
+  </action>
+  <action name="action_my_high">
+   <property name="text">
+    <string>我的记录_高级</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

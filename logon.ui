@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>logon</class>
+ <widget class="QMainWindow" name="logon">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>657</width>
+    <height>505</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <widget class="QLineEdit" name="lineEdit_Name">
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>80</y>
+         <width>271</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>70</y>
+         <width>201</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>隶书</family>
+         <pointsize>24</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>   用户名</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget_2" native="true">
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>60</y>
+         <width>131</width>
+         <height>33</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>隶书</family>
+         <pointsize>24</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>  密码</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_code">
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>60</y>
+         <width>281</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget_3" native="true">
+      <widget class="QPushButton" name="button_Register">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>80</y>
+         <width>321</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Agency FB</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>没有账号？来注册一个吧</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="button_Login">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>20</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Agency FB</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>登录</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_isShow">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>10</y>
+         <width>113</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>显示密码</string>
+       </property>
+      </widget>
+      <zorder>radioButton_isShow</zorder>
+      <zorder>button_Register</zorder>
+      <zorder>button_Login</zorder>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
